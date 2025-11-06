@@ -1,0 +1,22 @@
+server:
+  port: 8082
+  servlet:
+    context-path: /
+
+spring:
+  data:
+    redis:
+      host: localhost
+      port: 6379
+
+tio:
+  host: localhost
+  port: 8083
+  ws_uri: /smart_socket
+  server_id: server_socket
+  publish_server_id: server_app
+  alive_check_timeout: 300000
+
+redis:
+  host: localhost
+  port: 6379
